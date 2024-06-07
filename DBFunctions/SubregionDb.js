@@ -11,6 +11,9 @@ ussd.allSubregion = async () => {
             orderBy: {
                 date_created: 'desc', // Ensure your field is correct (createdAt or date_added)
             },
+            include: {
+                continent: true,
+            },
         });
         return regions;
     } catch (error) {

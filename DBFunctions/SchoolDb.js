@@ -5,19 +5,23 @@ const { ProcessStatus } = require("../helper/vars");
 
 let ussd = {};
 
-ussd.allCountries = async () => {
+ussd.allSchools = async () => {
     try {
-        const users = await prisma.country.findMany({
+        const users = await prisma.school.findMany({
             orderBy: {
-                date_created: 'desc', // Ensure your field is correct (createdAt or date_added)
+                date_added: 'desc', // Ensure your field is correct (createdAt or date_added)
             },
             include: {
-                subregion: {
+                country: {
                     include: {
-                        continent: true,
+                        subregion: {
+                            include: {
+                                continent: true,
+                            }
+                        },
                     }
-                },
-            },
+                }, // Include the related subregion
+              },
         });
         console.log(users); // Log users to check if it's empty or contains data
         return users;
@@ -33,11 +37,11 @@ ussd.allCountries = async () => {
 };
 
 
-ussd.countryDetails = async (country_id) => {
+ussd.schoolDetails = async (school_id) => {
     try {
-        const record = await prisma.country.findFirst({
+        const record = await prisma.school.findFirst({
             where: {
-                country_id: country_id
+                school_id: school_id
             },
           });
         console.log(users); // Log users to check if it's empty or contains data
@@ -55,10 +59,10 @@ ussd.countryDetails = async (country_id) => {
 
 
 
-ussd.createCountry = async (country) => {
+ussd.createSchool = async (school) => {
     try {
-        const newContinent = await prisma.country.create({
-            data: country
+        const newContinent = await prisma.school.create({
+            data: school
           });
           
         return newContinent;
@@ -74,10 +78,10 @@ ussd.createCountry = async (country) => {
 };
 
 
-ussd.createBatchCountries = async (countries) => {
+ussd.createBatchSchools = async (schools) => {
     try {
-        const newContinents = await prisma.country.createMany({
-            data: countries,
+        const newContinents = await prisma.school.createMany({
+            data: schools,
             skipDuplicates: true, 
           });
           
@@ -96,13 +100,13 @@ ussd.createBatchCountries = async (countries) => {
 
 
 
-ussd.updateCountry = async (country_id, country) => {
+ussd.updateSchool = async (school_id, school) => {
     try {
-        const updatedContinent = await prisma.country.update({
+        const updatedContinent = await prisma.school.update({
             where:{
-                country_id: country_id
+                school_id: school_id
             },
-            data: country
+            data: school
           });
           
         return updatedContinent;

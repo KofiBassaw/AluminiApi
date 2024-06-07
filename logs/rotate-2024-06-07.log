@@ -138,3 +138,187 @@
 {"content_length":"271","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":10779.861,"status":200,"url":"/alumini/api/v1/setup/addCountry"}
 {"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
 {"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"318","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":6077.117,"status":200,"url":"/alumini/api/v1/setup/AddSchool"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"51","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":5812.017,"status":200,"url":"/alumini/api/v1/setup/addBatchSchool"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"clientVersion":"5.15.0","label":"Exact health api logs","level":"error","message":"\nInvalid `prisma.school.findMany()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/SchoolDb.js:10:43\n\n   7 \n   8 ussd.allSchools = async () => {\n   9     try {\n→ 10         const users = await prisma.school.findMany(\nUnknown nested field 'subregion' for operation country does not match any query.","name":"PrismaClientUnknownRequestError","stack":"PrismaClientUnknownRequestError: \nInvalid `prisma.school.findMany()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/SchoolDb.js:10:43\n\n   7 \n   8 ussd.allSchools = async () => {\n   9     try {\n→ 10         const users = await prisma.school.findMany(\nUnknown nested field 'subregion' for operation country does not match any query.\n    at In.handleRequestError (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:7067)\n    at In.handleAndLogRequestError (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:6211)\n    at In.request (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:5919)\n    at async l (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:127:11167)\n    at async ussd.allSchools (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/SchoolDb.js:10:23)\n    at async /Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/controllers/Setup.js:400:22"}
+{"label":"Exact health api logs","level":"error","message":"\nInvalid `prisma.school.findMany()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/SchoolDb.js:10:43\n\n   7 \n   8 ussd.allSchools = async () => {\n   9     try {\n→ 10         const users = await prisma.school.findMany(\nUnknown nested field 'subregion' for operation country does not match any query."}
+{"content_length":"368","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":5079.966,"status":500,"url":"/alumini/api/v1/setup/allSchools"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"1617","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":6430.495,"status":200,"url":"/alumini/api/v1/setup/allSchools"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"clientVersion":"5.15.0","label":"Exact health api logs","level":"error","message":"\nInvalid `prisma.school.findMany()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/SchoolDb.js:10:43\n\n   7 \n   8 ussd.allSchools = async () => {\n   9     try {\n→ 10         const users = await prisma.school.findMany({\n               orderBy: {\n                 date_added: \"desc\"\n               },\n               include: {\n                 country: {\n                   include: {\n                     subregion: true,\n                     ~~~~~~~~~\n             ?       continent?: true,\n             ?       school?: true,\n             ?       User?: true\n                   }\n                 }\n               }\n             })\n\nUnknown field `subregion` for include statement on model `country`. Available options are marked with ?.","name":"PrismaClientValidationError","stack":"PrismaClientValidationError: \nInvalid `prisma.school.findMany()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/SchoolDb.js:10:43\n\n   7 \n   8 ussd.allSchools = async () => {\n   9     try {\n→ 10         const users = await prisma.school.findMany({\n               orderBy: {\n                 date_added: \"desc\"\n               },\n               include: {\n                 country: {\n                   include: {\n                     subregion: true,\n                     ~~~~~~~~~\n             ?       continent?: true,\n             ?       school?: true,\n             ?       User?: true\n                   }\n                 }\n               }\n             })\n\nUnknown field `subregion` for include statement on model `country`. Available options are marked with ?.\n    at Tn (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:115:6855)\n    at In.handleRequestError (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:6533)\n    at In.handleAndLogRequestError (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:6211)\n    at In.request (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:5919)\n    at async l (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:127:11167)\n    at async ussd.allSchools (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/SchoolDb.js:10:23)\n    at async /Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/controllers/Setup.js:400:22"}
+{"label":"Exact health api logs","level":"error","message":"\nInvalid `prisma.school.findMany()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/SchoolDb.js:10:43\n\n   7 \n   8 ussd.allSchools = async () => {\n   9     try {\n→ 10         const users = await prisma.school.findMany({\n               orderBy: {\n                 date_added: \"desc\"\n               },\n               include: {\n                 country: {\n                   include: {\n                     subregion: true,\n                     ~~~~~~~~~\n             ?       continent?: true,\n             ?       school?: true,\n             ?       User?: true\n                   }\n                 }\n               }\n             })\n\nUnknown field `subregion` for include statement on model `country`. Available options are marked with ?."}
+{"content_length":"826","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":5106.486,"status":500,"url":"/alumini/api/v1/setup/allSchools"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"2253","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":6305.611,"status":200,"url":"/alumini/api/v1/setup/allSchools"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"2715","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":6566.454,"status":200,"url":"/alumini/api/v1/setup/allSchools"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"2440","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":6279.353,"status":200,"url":"/alumini/api/v1/setup/allCountries"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"1104","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":5756.297,"status":200,"url":"/alumini/api/v1/setup/allSubregion"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"51","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":5828.564,"status":200,"url":"/alumini/api/v1/setup/addBatchSubregion"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"error","message":"country is not defined"}
+{"content_length":"47","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":3573.277,"status":500,"url":"/alumini/api/v1/setup/updateSchool"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"319","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":5327.532,"status":200,"url":"/alumini/api/v1/setup/updateSchool"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}

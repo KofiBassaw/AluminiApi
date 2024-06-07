@@ -141,7 +141,7 @@ model country {
   country_code     String   @db.VarChar(10)
   status           Int      @default(1)
   is_edify_country Int      @default(0)
-  continent       subregion  @relation(fields: [subreion_id], references: [subreion_id])
+  subregion       subregion  @relation(fields: [subreion_id], references: [subreion_id])
   subreion_id     String
   school           school[]
   User             User[]

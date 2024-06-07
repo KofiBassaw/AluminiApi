@@ -4,6 +4,7 @@ const UtilityHelper = require("../helper/utilfunc");
 const { myVars, RESPONSE_CODES,REGISTRATION_STATUS } = require("../helper/vars");
 const subRegionModel = require("../DBFunctions/SubregionDb");
 const countryModel = require("../DBFunctions/CountryDb");
+const  schoolModel = require("../DBFunctions/SchoolDb");
 
 
 
@@ -379,4 +380,132 @@ exports.UpdateCountry= asynHandler(async (req, res, next) => {
 })
 
 //ending of country function
+
+
+
+
+
+
+
+
+
+
+
+//beginning of school function
+exports.AllSchools = asynHandler(async (req, res, next) => {
+
+    let session = req.session;
+   // console.log(session);
+
+    let continents = await schoolModel.allSchools();
+
+
+   var resp = {
+       status : RESPONSE_CODES.SUCCESS,
+       message : "Success",
+       data : continents
+   };
+
+   return UtilityHelper.sendResponse(res, 200, resp.message, resp,session);
+
+})
+
+
+
+
+
+exports.AddSchool = asynHandler(async (req, res, next) => {
+
+    let session = req.session;
+   // console.log(session);
+   let content  = req.body;
+
+   let NewContinent = await schoolModel.createSchool(content);
+
+
+
+       if(!NewContinent)
+        {
+            var resp = {
+                status : RESPONSE_CODES.FAILED,
+                message : "Failed to create record",
+                data : continents
+            };
+        }
+
+   var resp = {
+       status : RESPONSE_CODES.SUCCESS,
+       message : "Success",
+       data : NewContinent
+   };
+
+   return UtilityHelper.sendResponse(res, 200, resp.message, resp,session);
+
+})
+
+
+
+exports.AddBatchSchools = asynHandler(async (req, res, next) => {
+
+    let session = req.session;
+   // console.log(session);
+   let continents  = req.body;
+
+   let NewContinents = await schoolModel.createBatchSchools(continents);
+
+
+
+       if(!NewContinents)
+        {
+            var resp = {
+                status : RESPONSE_CODES.FAILED,
+                message : "Failed to create records",
+                data : continents
+            };
+        }
+
+   var resp = {
+       status : RESPONSE_CODES.SUCCESS,
+       message : "Success",
+       data : NewContinents
+   };
+
+   return UtilityHelper.sendResponse(res, 200, resp.message, resp,session);
+
+})
+
+
+
+
+exports.UpdateSchool= asynHandler(async (req, res, next) => {
+
+    let session = req.session;
+   // console.log(session);
+   let school  = req.body;
+   let school_id = school.school_id;
+
+   let UpdatedContinents = await schoolModel.updateSchool(school_id,school);
+
+
+
+       if(!UpdatedContinents)
+        {
+            var resp = {
+                status : RESPONSE_CODES.FAILED,
+                message : "Failed to create continent",
+                data : continents
+            };
+        }
+
+   var resp = {
+       status : RESPONSE_CODES.SUCCESS,
+       message : "Success",
+       data : UpdatedContinents
+   };
+
+   return UtilityHelper.sendResponse(res, 200, resp.message, resp,session);
+
+})
+
+//ending of schools function
 

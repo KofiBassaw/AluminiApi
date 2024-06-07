@@ -21,7 +21,11 @@ const {
     AddCountry,
     AddBatchCountries,
     AllCountries,
-    UpdateCountry
+    UpdateCountry,
+    AddSchool,
+    AddBatchSchools,
+    AllSchools,
+    UpdateSchool
 } = require("../controllers/Setup");
 
 
@@ -53,6 +57,13 @@ router.route("/setup/addBatchCountries").post(CheckAgent,AddBatchCountries);
 router.route("/setup/allCountries").get(CheckAgent,AllCountries);
 router.route("/setup/updateCountry").post(CheckAgent,UpdateCountry);
 
+
+
+//
+router.route("/setup/addSchool").post(CheckAgent,AddSchool);
+router.route("/setup/addBatchSchool").post(CheckAgent,AddBatchSchools);
+router.route("/setup/allSchools").get(CheckAgent,AllSchools);
+router.route("/setup/updateSchool").post(CheckAgent,UpdateSchool);
 
 
 module.exports = router;
