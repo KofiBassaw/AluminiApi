@@ -330,3 +330,12 @@
 {"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
 {"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
 {"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"2716","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":6667.347,"status":200,"url":"/alumini/api/v1/setup/allSchools"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"2440","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":5881.991,"status":200,"url":"/alumini/api/v1/setup/allCountries"}
+{"code":"ECONNREFUSED","label":"Exact health api logs","level":"error","message":"","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)"}
+{"label":"Exact health api logs","level":"error","message":""}
