@@ -7,7 +7,7 @@ let ussd = {};
 
 ussd.allSchools = async () => {
     try {
-        const users = await prisma.school.findMany({
+        const schools = await prisma.school.findMany({
             orderBy: {
                 date_added: 'desc', // Ensure your field is correct (createdAt or date_added)
             },
@@ -23,8 +23,8 @@ ussd.allSchools = async () => {
                 }, // Include the related subregion
               },
         });
-        console.log(users); // Log users to check if it's empty or contains data
-        return users;
+
+            return schools;
     } catch (error) {
         console.error("Error retrieving record:", error);
         if (typeof logger !== 'undefined') {
