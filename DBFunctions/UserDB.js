@@ -38,13 +38,9 @@ ussd.activeSession = async (token) => {
 
 
 
-
-
-
-
 ussd.userDetails = async (userID) => {
     try {
-          // Await the resolution of the Prisma findFirst query
+          // Await the resolution findFirst query
           if (!userID) {
             return resolve(null);
         }
