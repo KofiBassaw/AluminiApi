@@ -18,7 +18,7 @@ ussd.activeSession = async (token) => {
             if (!token) {
                 return resolve(null);
             }
-            const record = await prisma.verificationToken.findFirst({
+            const record = await prisma.Session.findFirst({
                 where: {
                     token: token,
                 },
@@ -46,7 +46,7 @@ ussd.userDetails = async (userID) => {
         }
         const record = await prisma.user.findFirst({
             where: {
-                user_id: userID,
+                id: userID,
                 status: ProcessStatus.COMPLETED
             },
         });

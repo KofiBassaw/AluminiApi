@@ -8,8 +8,6 @@ exports.CheckAgent = asyncHandler(async (req, res, next) => {
 
     console.log("Received Headers:", req.headers);
     let userAgentObj = req.headers;
-    console.log("********************");
-    console.log(userAgentObj);
     let {tokenid} = userAgentObj;
 
   
@@ -32,7 +30,11 @@ exports.CheckAgent = asyncHandler(async (req, res, next) => {
 
     req.session = sessionResp
 
+    console.log("******************: ")
+    console.log(sessionResp.user_id)
+
     let userResp = await userModel.userDetails(sessionResp.user_id);
+
 
     if(userResp == null || typeof userResp == 'undefined')
     {
