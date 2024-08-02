@@ -12,6 +12,7 @@ datasource db {
 }
 
 
+
 model Menu {
   id          Int      @id @default(autoincrement())
   menuTitle        String
@@ -114,7 +115,7 @@ model FormSubmissions {
 model continent {
   id               Int      @default(autoincrement())
   continent_id       String   @id @default(uuid())
-  continent_name     String   @db.VarChar(100)
+  continent_name     String   @db.VarChar(100) @unique
   date_created     DateTime @default(now())
   status           Int      @default(1)
   subregion           subregion[]
@@ -133,9 +134,6 @@ model subregion {
   country           country[]
 }
 
-
-
-
 model country {
   id               Int      @default(autoincrement())
   country_id       String   @id @default(uuid())
@@ -148,6 +146,8 @@ model country {
   subreion_id     String
   school           school[]
   User             User[]
+  job              Job[]
+  scholarship     Scholarship[]
 }
 
 model school {
@@ -168,7 +168,7 @@ model User {
   user_id               String                 @default(uuid())
   name                  String                 @db.VarChar(200)
   phone_numbers         String
-  email                 String?
+  email                 String?                @unique
   address               String?
   date_added            DateTime?
   status                Int                    @default(1)
@@ -189,6 +189,10 @@ model User {
   user_employment       user_employment[]
   user_education        user_education[]
   user_certificate      user_certificate[]
+  job_applications     userJobApplications[]
+  processedBy          userJobApplications[] @relation(name: "processedBy")
+  scholarships userScholarshipApplications[]
+  scholarshipsProcessed  userScholarshipApplications[]  @relation(name: "scholarshipsProcessed")
 }
 
 model user_employment {
@@ -265,6 +269,15 @@ model VerificationToken {
   @@unique([email, token, user_id])
 }
 
+model Session {
+  id String @id @default(cuid())
+  user_id String
+  token String @unique
+  expires DateTime
+
+  @@unique([ token, user_id])
+}
+
 model PasswordResetToken {
   id      String   @id @default(cuid())
   email   String
@@ -291,14 +304,90 @@ model TwoFactorConfirmation {
   @@unique([userId])
 }
 
-model Session {
-  id String @id @default(cuid())
-  user_id String
-  token String @unique
-  expires DateTime
-
-  @@unique([ token, user_id])
+model Job{
+  id      Int  @default(autoincrement())
+  job_id   String   @id @default(uuid())
+  jobTitle String 
+  status    Int      @default(1)
+  country          country   @relation(fields: [country_id], references: [country_id])
+  country_id       String
+  jobType         String
+  jobCategory     String
+  minimumSalary  Decimal @default(0)
+  maximumSalary  Decimal @default(0)
+  location     String
+  infomation     String
+  description     String[]
+  sepcification String[]
+  numberOfApplication Int @default(0)
+  numberOfConfirmation Int @default(0)
+  numberOfPending Int @default(0)
+  numberOfDeclined Int @default(0)
+  date_added    DateTime  @default(now())
+  salaryCurrency String
+  applications userJobApplications[]
+ 
 }
+
+
+model userJobApplications{
+  id      Int  @default(autoincrement())
+  application_id   String   @id @default(uuid())
+  date_added    DateTime  @default(now())
+  status    Int      @default(0)
+  user             User     @relation(fields: [user_id], references: [id])
+  user_id          String
+  job             Job     @relation(fields: [job_id], references: [job_id])
+  job_id          String
+  cvUrl           String
+  coverPageUrl    String
+  processComment  String?
+  processedBy      User?     @relation(fields: [user_process_id], references: [id], name: "processedBy") 
+  user_process_id  String?
+  date_processed    DateTime?  @default(now())
+}
+
+
+
+
+
+model Scholarship{
+  id      Int  @default(autoincrement())
+  scholarship_id   String   @id @default(uuid())
+  title String 
+  status    Int      @default(1)
+  country          country   @relation(fields: [country_id], references: [country_id])
+  country_id       String
+  infomation     String
+  numberOfApplication Int @default(0)
+  numberOfConfirmation Int @default(0)
+  numberOfPending Int @default(0)
+  numberOfDeclined Int @default(0)
+  date_added    DateTime  @default(now())
+  cover_image_url String
+  applications userScholarshipApplications[]
+}
+
+
+model userScholarshipApplications{
+  id      Int  @default(autoincrement())
+  application_id   String   @id @default(uuid())
+  date_added    DateTime  @default(now())
+  status    Int      @default(0)
+  user             User     @relation(fields: [user_id], references: [id])
+  user_id          String
+  scholarship             Scholarship     @relation(fields: [scholarship_id], references: [scholarship_id])
+  scholarship_id          String
+  certificate_url           String
+  application_letter_url    String
+  recommendation_letter_url    String
+  processComment  String?
+  scholarshipsProcessed      User?     @relation(fields: [user_process_id], references: [id], name: "scholarshipsProcessed") 
+  user_process_id  String?
+  date_processed    DateTime?  @default(now())
+}
+
+
 
 enum UserRole {
   ADMIN

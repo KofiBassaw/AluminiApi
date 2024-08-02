@@ -284,6 +284,27 @@ exports.AllCountries = asynHandler(async (req, res, next) => {
 
 
 
+exports.AllCountriesWithSchools = asynHandler(async (req, res, next) => {
+
+    //let session = req.session;
+   // console.log(session);
+
+    let continents = await countryModel.allCountriesWithSchools();
+
+
+   var resp = {
+       status : RESPONSE_CODES.SUCCESS,
+       message : "Success",
+       data : continents
+   };
+
+   return UtilityHelper.sendResponse(res, 200, resp.message, resp);
+
+})
+
+
+
+
 
 
 exports.AddCountry = asynHandler(async (req, res, next) => {

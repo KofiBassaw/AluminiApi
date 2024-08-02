@@ -62,6 +62,55 @@ ussd.userDetails = async (userID) => {
 
 
 
+ussd.userDetailsFull = async (userID) => {
+    try {
+          // Await the resolution findFirst query
+          if (!userID) {
+            return resolve(null);
+        }
+        const record = await prisma.user.findFirst({
+            where: {
+                id: userID,
+                status: ProcessStatus.COMPLETED
+            },
+            include:{
+                user_employment: true,
+                user_education: true,
+                user_employment: true,
+                user_certificate: true,
+                school: true,
+                country: true,
+                job_applications: {
+                    include:{
+                        job: true
+                    }
+                },
+                scholarships: {
+                    include:{
+                        scholarship: true
+                    }
+                }
+                
+
+
+            }
+        });
+        return record;
+    } catch (error) {
+        console.error("Error retrieving record:", error);
+        logger.error(error);
+        throw error;
+    } finally {
+        await prisma.$disconnect();
+    }
+};
+
+
+/*
+
+       userJobApplications[]
+
+*/
 
 
 
@@ -71,6 +120,10 @@ ussd.allUsers = async () => {
             orderBy: {
                 date_added: 'desc', // Ensure your field is correct (createdAt or date_added)
             },
+            include:{
+                school: true,
+                country: true
+            }
         });
         console.log(users); // Log users to check if it's empty or contains data
         return users;

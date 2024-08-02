@@ -57,9 +57,10 @@ let REGISTRATION_STATUS = {
 
 
 let TASK_STATUS = {
+    PENDING:0,
     ACTIVE:1,
-    CLOSED:2,
-    DELETED: 10
+    CLOSED:100,
+    DECLINED: 10
 }
 
 

@@ -25,8 +25,47 @@ const {
     AddSchool,
     AddBatchSchools,
     AllSchools,
-    UpdateSchool
+    UpdateSchool,
+    AllCountriesWithSchools
 } = require("../controllers/Setup");
+
+
+
+
+const {
+   AddJob,
+   AllJobs,
+   JobDetailsController,
+   ApplyController,
+   PendingApplicationController,
+   ProcessApplicationController,
+   CompletedApplicationController,
+   DeclinedApplicationController
+} = require("../controllers/JobSetUp");
+
+
+
+const {
+   AllUsers,
+   UserDetailsController
+} = require("../controllers/UserSetup");
+
+
+
+
+
+const {
+   AddScholarshipController,
+   AllScholarshipsController,
+   ScholarshipDetailsController,
+   ApplyScholarshipController,
+   PendingScholarshipApplicationController,
+   ProcessScholarshipApplicationController,
+   CompletedScholarshipController,
+   DeclinedScholarshipApplicationController
+} = require("../controllers/ScholarshipSetup");
+
+
 
 
 
@@ -55,6 +94,8 @@ router.route("/setup/updateSubregion").post(CheckAgent,UpdateSubregion);
 router.route("/setup/addCountry").post(CheckAgent,AddCountry);
 router.route("/setup/addBatchCountries").post(CheckAgent,AddBatchCountries);
 router.route("/setup/allCountries").get(CheckAgent,AllCountries);
+
+router.route("/setup/allCountriesWithSchool").get(AllCountriesWithSchools);
 router.route("/setup/updateCountry").post(CheckAgent,UpdateCountry);
 
 
@@ -64,6 +105,40 @@ router.route("/setup/addSchool").post(CheckAgent,AddSchool);
 router.route("/setup/addBatchSchool").post(CheckAgent,AddBatchSchools);
 router.route("/setup/allSchools").get(CheckAgent,AllSchools);
 router.route("/setup/updateSchool").post(CheckAgent,UpdateSchool);
+
+
+
+
+//routes for jobs
+router.route("/Job/addJob").post(CheckAgent,AddJob);
+router.route("/Job/all").get(CheckAgent,AllJobs);
+router.route("/Job/all/:job_id").get(CheckAgent,JobDetailsController);
+router.route("/Job/apply").post(CheckAgent,ApplyController);
+router.route("/Job/pendingApplication").get(CheckAgent,PendingApplicationController);
+router.route("/Job/completed-applications").get(CheckAgent,CompletedApplicationController);
+router.route("/Job/declined-applications").get(CheckAgent,DeclinedApplicationController);
+
+router.route("/Job/process-application").post(CheckAgent,ProcessApplicationController);
+
+
+
+
+//routes for users
+router.route("/User/all").get(CheckAgent,AllUsers);
+router.route("/User/all/:id").get(CheckAgent,UserDetailsController);
+
+
+
+//routs for scholarship
+router.route("/scholarship/add").post(CheckAgent,AddScholarshipController);
+router.route("/scholarship/all").get(CheckAgent,AllScholarshipsController);
+router.route("/scholarship/all/:scholarship_id").get(CheckAgent,ScholarshipDetailsController);
+router.route("/scholarship/apply").post(CheckAgent,ApplyScholarshipController);
+router.route("/scholarship/pending-application").get(CheckAgent,PendingScholarshipApplicationController);
+router.route("/scholarship/process-application").post(CheckAgent,ProcessScholarshipApplicationController);
+router.route("/scholarship/completed-application").get(CheckAgent,CompletedScholarshipController);
+router.route("/scholarship/declined-application").get(CheckAgent,DeclinedScholarshipApplicationController);
+
 
 
 module.exports = router;
