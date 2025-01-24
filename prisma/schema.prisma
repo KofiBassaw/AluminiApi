@@ -434,6 +434,7 @@ model Discussion{
   status Int @default(1)
   date_added    DateTime  @default(now())
   added_by_id String
+  cover_image String?
   added_by User @relation(fields: [added_by_id], references: [id])
 
   messages DiscussionMessage[]

@@ -81,6 +81,16 @@ const {
 
 
 
+const {
+   AddDiscussion,
+   updateDiscussion,
+   AddMessage,
+   ActiveDiscussions,
+   DiscussionDetails
+} = require("../controllers/DiscussionsController");
+
+
+
 
 const { CheckAgent } = require("../middleware/requestMiddleware");
 
@@ -156,6 +166,7 @@ router.route("/scholarship/declined-application").get(CheckAgent,DeclinedScholar
 
 
 
+//event routes
 router.route("/event/add").post(CheckAgent,AddEvent);
 router.route("/event/update-event").post(CheckAgent,updateEvent);
 router.route("/event/book").post(CheckAgent,BookEvent);
@@ -164,4 +175,20 @@ router.route("/event/user-active-event").get(CheckAgent,UserActiveEvent);
 
 
 
+
+
+//event routes
+router.route("/discussion/add").post(CheckAgent,AddDiscussion);
+router.route("/discussion/update-discussion").post(CheckAgent,updateDiscussion);
+router.route("/discussion/add-message").post(CheckAgent,AddMessage);
+router.route("/discussion/active-discussion").get(CheckAgent,ActiveDiscussions);
+router.route("/discussion/discussion-details/:discussion_id").get(CheckAgent,DiscussionDetails);
+
+/*
+   ,
+   ,
+   ,
+   ,
+   
+*/
 module.exports = router;

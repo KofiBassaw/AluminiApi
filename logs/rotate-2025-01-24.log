@@ -102,3 +102,209 @@
 {"code":"3D000","file":"postinit.c","label":"Exact health api logs","length":93,"level":"error","line":"1021","message":"database \"alumini\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"alumini\" does not exist\n    at Parser.parseErrorMessage (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:283:98)\n    at Parser.handlePacket (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:122:29)\n    at Parser.parse (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:35:38)\n    at Socket.<anonymous> (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)"}
 {"label":"Exact health api logs","level":"error","message":"database \"alumini\" does not exist"}
 {"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Session has expired"}
+{"content_length":"45","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":3412.855,"status":200,"url":"/alumini/api/v1/discussion/add"}
+{"clientVersion":"5.15.0","code":"P2022","label":"Exact health api logs","level":"error","message":"\nInvalid `prisma.discussion.create()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/DiscussionDb.js:16:48\n\n  13 ussd.add = async (discussion) => {\n  14     try {\n  15         \n→ 16         const newJob = await prisma.discussion.create(\nThe column `cover_image` does not exist in the current database.","meta":{"column":"cover_image","modelName":"Discussion"},"name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.discussion.create()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/DiscussionDb.js:16:48\n\n  13 ussd.add = async (discussion) => {\n  14     try {\n  15         \n→ 16         const newJob = await prisma.discussion.create(\nThe column `cover_image` does not exist in the current database.\n    at In.handleRequestError (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:6877)\n    at In.handleAndLogRequestError (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:6211)\n    at In.request (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:122:5919)\n    at async l (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/@prisma/client/runtime/library.js:127:11167)\n    at async ussd.add (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/DiscussionDb.js:16:24)\n    at async /Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/controllers/DiscussionsController.js:19:17"}
+{"label":"Exact health api logs","level":"error","message":"\nInvalid `prisma.discussion.create()` invocation in\n/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/DBFunctions/DiscussionDb.js:16:48\n\n  13 ussd.add = async (discussion) => {\n  14     try {\n  15         \n→ 16         const newJob = await prisma.discussion.create(\nThe column `cover_image` does not exist in the current database."}
+{"content_length":"372","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":5818.041,"status":500,"url":"/alumini/api/v1/discussion/add"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"277","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":5627.663,"status":200,"url":"/alumini/api/v1/discussion/add"}
+{"code":"3D000","file":"postinit.c","label":"Exact health api logs","length":93,"level":"error","line":"1021","message":"database \"alumini\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"alumini\" does not exist\n    at Parser.parseErrorMessage (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:283:98)\n    at Parser.handlePacket (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:122:29)\n    at Parser.parse (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:35:38)\n    at Socket.<anonymous> (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)"}
+{"label":"Exact health api logs","level":"error","message":"database \"alumini\" does not exist"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"282","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":5773.771,"status":200,"url":"/alumini/api/v1/discussion/update-discussion"}
+{"code":"3D000","file":"postinit.c","label":"Exact health api logs","length":93,"level":"error","line":"1021","message":"database \"alumini\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"alumini\" does not exist\n    at Parser.parseErrorMessage (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:283:98)\n    at Parser.handlePacket (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:122:29)\n    at Parser.parse (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:35:38)\n    at Socket.<anonymous> (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)"}
+{"label":"Exact health api logs","level":"error","message":"database \"alumini\" does not exist"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"296","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":6065.327,"status":200,"url":"/alumini/api/v1/discussion/add-message"}
+{"code":"3D000","file":"postinit.c","label":"Exact health api logs","length":93,"level":"error","line":"1021","message":"database \"alumini\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"alumini\" does not exist\n    at Parser.parseErrorMessage (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:283:98)\n    at Parser.handlePacket (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:122:29)\n    at Parser.parse (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:35:38)\n    at Socket.<anonymous> (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)"}
+{"label":"Exact health api logs","level":"error","message":"database \"alumini\" does not exist"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"343","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"POST","response_time":5886.409,"status":200,"url":"/alumini/api/v1/discussion/add-message"}
+{"code":"3D000","file":"postinit.c","label":"Exact health api logs","length":93,"level":"error","line":"1021","message":"database \"alumini\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"alumini\" does not exist\n    at Parser.parseErrorMessage (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:283:98)\n    at Parser.handlePacket (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:122:29)\n    at Parser.parse (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:35:38)\n    at Socket.<anonymous> (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)"}
+{"label":"Exact health api logs","level":"error","message":"database \"alumini\" does not exist"}
+{"label":"Exact health api logs","level":"debug","message":"Alumini App: Running in development mode and listening on port http://:9004"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"866","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":6261.501,"status":200,"url":"/alumini/api/v1/discussion/active-discussion"}
+{"code":"3D000","file":"postinit.c","label":"Exact health api logs","length":93,"level":"error","line":"1021","message":"database \"alumini\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"alumini\" does not exist\n    at Parser.parseErrorMessage (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:283:98)\n    at Parser.handlePacket (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:122:29)\n    at Parser.parse (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:35:38)\n    at Socket.<anonymous> (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)"}
+{"label":"Exact health api logs","level":"error","message":"database \"alumini\" does not exist"}
+{"label":"Exact health api logs","level":"info","message":"Success"}
+{"content_length":"1914","label":"Exact health api logs","level":"http","message":"incoming-api-request","method":"GET","response_time":7578.838,"status":200,"url":"/alumini/api/v1/discussion/discussion-details/229d2282-3e47-4e51-9727-5ed8a257d425"}
+{"code":"3D000","file":"postinit.c","label":"Exact health api logs","length":93,"level":"error","line":"1021","message":"database \"alumini\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"alumini\" does not exist\n    at Parser.parseErrorMessage (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:283:98)\n    at Parser.handlePacket (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:122:29)\n    at Parser.parse (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/parser.js:35:38)\n    at Socket.<anonymous> (/Users/testdevice/Desktop/Source Code/Node JS/AluminiApi/node_modules/pg-protocol/dist/index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)"}
+{"label":"Exact health api logs","level":"error","message":"database \"alumini\" does not exist"}
