@@ -69,6 +69,19 @@ const {
 
 
 
+const {
+   AddEvent,
+   updateEvent,
+   BookEvent,
+   ActiveEvent,
+   UserActiveEvent
+} = require("../controllers/EventController");
+
+
+
+
+
+
 const { CheckAgent } = require("../middleware/requestMiddleware");
 
 
@@ -138,6 +151,16 @@ router.route("/scholarship/pending-application").get(CheckAgent,PendingScholarsh
 router.route("/scholarship/process-application").post(CheckAgent,ProcessScholarshipApplicationController);
 router.route("/scholarship/completed-application").get(CheckAgent,CompletedScholarshipController);
 router.route("/scholarship/declined-application").get(CheckAgent,DeclinedScholarshipApplicationController);
+
+
+
+
+
+router.route("/event/add").post(CheckAgent,AddEvent);
+router.route("/event/update-event").post(CheckAgent,updateEvent);
+router.route("/event/book").post(CheckAgent,BookEvent);
+router.route("/event/active-event").get(CheckAgent,ActiveEvent);
+router.route("/event/user-active-event").get(CheckAgent,UserActiveEvent);
 
 
 
